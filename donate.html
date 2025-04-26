@@ -125,24 +125,25 @@
                         <div class="donate-form">
                             <form>
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <img id="qrImg" src="img/qr.jpg" alt="GFG image" />
                                 </div>
-                                <div class="control-group">
+                                <!--<div class="control-group">
                                     <input type="email" class="form-control" placeholder="Email" required="required" />
                                 </div>
+					-->
                                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                     <label class="btn btn-custom active">
-                                        <input type="radio" name="options" checked> $10
+                                        <input type="radio" name="options"> &#8377;500
                                     </label>
                                     <label class="btn btn-custom">
-                                        <input type="radio" name="options"> $20
+                                        <input type="radio" name="options"> &#8377;1000
                                     </label>
                                     <label class="btn btn-custom">
-                                        <input type="radio" name="options"> $30
+                                        <input type="radio" name="options"> &#8377;5000
                                     </label>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Donate Now</button>
+						<button class="btn btn-custom" type="submit" id="btnDonateId" disabled="true">Donate now</button>						
                                 </div>
                             </form>
                         </div>
